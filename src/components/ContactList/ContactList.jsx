@@ -6,7 +6,6 @@ import css from "./ContactList.module.css";
 
 export default function ContactList() {
   const contacts = useSelector(selectVisibleContacts);
-  console.log("ContactList ~ contacts:", contacts);
 
   return (
     <ul className={css.contacts}>
